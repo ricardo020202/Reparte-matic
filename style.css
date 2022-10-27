@@ -1,0 +1,27 @@
+body{
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.navbar{
+    background-color: #1e1e1e;
+    position: fixed;
+}
+
+.logo{
+    width: 200px;
+}
+
+.search-bar{
+    width: 700px;
+    border-radius: 100px;
+    margin-left: 100px;
+}
+
+.navbar-nav{
+    margin-left: 100px;
+}
+
+.icons{
+    width: 40px;
+}
