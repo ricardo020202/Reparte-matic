@@ -1,15 +1,28 @@
 body{
     background-color: #1e1e1e;
     color: #ffffff;
+    height: 100%;
 }
 
 .navbar{
     background-color: #1e1e1e;
-    position: fixed;
+    width: 100%;
 }
 
 .logo{
     width: 200px;
+}
+
+.logo:hover{
+    scale: 1.1;
+}
+
+.logo-mobile{
+    width: 150px;
+}
+
+.logo-mobile:hover{
+    scale: 1.1;
 }
 
 .search-bar{
@@ -24,4 +37,71 @@ body{
 
 .icons{
     width: 40px;
+}
+
+.icons:hover{
+    scale: 1.2;
+}
+
+.icons-mobile{
+    width: 30px;
+}
+
+.icons-mobile:hover{
+    scale: 1.2;
+}
+
+.card{
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 211px;
+}
+
+.card-mobile{
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    height: 100px;
+}
+
+.content{
+    margin-top: 150px;
+}
+
+h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.dish-icon{
+    width: 247px;
+    height: 172px;
+}
+
+.dish-icon-mobile{
+    width: auto;
+    height: 80px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.p-mobile{
+    font-size: 12px;
+    font-weight: 300;
+    color: black;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
 }

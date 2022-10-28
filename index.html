@@ -20,36 +20,303 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg fixed-top d-none d-sm-block">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./assets/Logo_sample.png" alt="Logo Reparte-matic" class="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 search-bar" type="search" placeholder="Search..." aria-label="Search">
-                </form>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><img src="./assets/account-icon.png" alt="cuenta" class="icons"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><img src="./assets/cart-icon.png" alt="carrito" class="icons"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><img src="./assets/Menu-icon.png" alt="menu" class="icons"></a>
-                    </li>
-                </ul>
-            </div>
+            <a class="navbar-brand" href="./index.html"><img src="./assets/Logo_sample.png" alt="Logo Reparte-matic"
+                    class="logo"></a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 search-bar" type="search" placeholder="Search..." aria-label="Search">
+            </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><img src="./assets/account-icon.png"
+                            alt="cuenta" class="icons"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><img src="./assets/cart-icon.png"
+                            alt="carrito" class="icons"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><img src="./assets/Menu-icon.png" alt="menu"
+                            class="icons"></a>
+                </li>
+            </ul>
         </div>
     </nav>
 
-    <div class="container-fluid content">
+    <!-- Mobile Navbar -->
+    <nav class="navbar navbar-expand-lg bg fixed-top d-lg-none d-md-none d-lg-block>
+        <div class=" container-fluid">
+            <div class="col">
+                <a class="navbar-brand" href="./index.html"><img src="./assets/Logo_sample.png" alt="Logo Reparte-matic"
+                        class="logo-mobile" style="margin-left: 15px;"></a>
+            </div>
+            <a class="nav-link active" aria-current="page" href="#"><img src="./assets/account-icon.png" alt="cuenta"
+                    class="icons-mobile"></a>
+            <a class="nav-link active" aria-current="page" href="#"><img src="./assets/cart-icon.png" alt="carrito"
+                    class="icons-mobile"></a>
+            <a class="nav-link active" aria-current="page" href="#"><img src="./assets/Menu-icon.png" alt="menu"
+                    class="icons-mobile" style="margin-right: 15px;"></a>
+        </div>
+    </nav>
 
+    <div class="container-fluid content mb-5">
+        <div class="container d-none d-sm-block">
+            <div class="row">
+                <h2 class="text-center">Menú</h2>
+            </div>
+
+            <div class="row mt-3">
+                <img src="./assets/Line 5.png" alt="">
+            </div>
+
+            <div class="row mt-5">
+                <h3 class="text-white" style="font-size: 37px ;">Comida</h3>
+            </div>
+
+            <div class="row mt-3">
+                <div class="card">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <img src="./assets/hamburger.png" alt="" class="dish-icon my-3">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <h3>Hamburguesa king chipotle</h3>
+                            </div>
+                            <div class="row">
+                                <p>Hamburguesa de sirloin con chipotle</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <h3>
+                                $ 120
+                            </h3>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="./assets/add-button.png" alt="" class="icons"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="card">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <img src="./assets/hamburger.png" alt="" class="dish-icon my-3">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <h3>Hamburguesa king chipotle</h3>
+                            </div>
+                            <div class="row">
+                                <p>Hamburguesa de sirloin con chipotle</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <h3>
+                                $ 120
+                            </h3>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="./assets/add-button.png" alt="" class="icons"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <h3 class="text-white" style="font-size: 37px ;">Bebidas</h3>
+            </div>
+
+            <div class="row mt-3">
+                <div class="card">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <img src="./assets/sodas.png" alt="" class="dish-icon my-3">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <h3>Refresco</h3>
+                            </div>
+                            <div class="row">
+                                <p>Refresco de 600ml</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <h3>
+                                $ 20
+                            </h3>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="./assets/add-button.png" alt="" class="icons"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <h3 class="text-white" style="font-size: 37px ;">Postres</h3>
+            </div>
+
+            <div class="row mt-3">
+                <div class="card">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <img src="./assets/cake.png" alt="" class="dish-icon my-3">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <h3>Pastel de chocolate</h3>
+                            </div>
+                            <div class="row">
+                                <p>Rebanada de pastel de chocolate</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <h3>
+                                $ 30
+                            </h3>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="./assets/add-button.png" alt="" class="icons"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Mobile content-->
+        <div class="container d-lg-none d-md-none d-lg-block">
+            <div class="row">
+                <h2 class="text-center">Menú</h2>
+            </div>
+
+            <div class="row mt-3">
+                <img src="./assets/Line 5.png" alt="">
+            </div>
+
+            <div class="row mt-5">
+                <h3 class="text-white" style="font-size: 37px ;">Comida</h3>
+            </div>
+
+            <div class="row mt-3">
+                <div class="card card-mobile">
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <img src="./assets/hamburger.png" alt="" class="dish-icon-mobile my-2">
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <h4>Hamburguesa king chipotle</h4>
+                            </div>
+                            <div class="row">
+                                <p class="p-mobile">Hamburguesa de sirloin con chipotle</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <h4>
+                                $ 120
+                            </h4>
+                        </div>
+                        <div class="col-1">
+                            <a href=""><img src="./assets/add-button.png" alt="" class="icons-mobile"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="card card-mobile">
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <img src="./assets/hamburger.png" alt="" class="dish-icon-mobile my-2">
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <h4>Hamburguesa king chipotle</h4>
+                            </div>
+                            <div class="row">
+                                <p class="p-mobile">Hamburguesa de sirloin con chipotle</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <h4>
+                                $ 120
+                            </h4>
+                        </div>
+                        <div class="col-1">
+                            <a href=""><img src="./assets/add-button.png" alt="" class="icons-mobile"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <h3 class="text-white" style="font-size: 37px ;">Bebidas</h3>
+            </div>
+
+            <div class="row mt-3">
+                <div class="card card-mobile">
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <img src="./assets/sodas.png" alt="" class="dish-icon-mobile my-2">
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <h4>Refresco</h4>
+                            </div>
+                            <div class="row">
+                                <p class="p-mobile">Refresco de 600ml</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <h4>
+                                $ 20
+                            </h4>
+                        </div>
+                        <div class="col-1">
+                            <a href=""><img src="./assets/add-button.png" alt="" class="icons-mobile"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <h3 class="text-white" style="font-size: 37px ;">Postres</h3>
+            </div>
+
+            <div class="row mt-3">
+                <div class="card card-mobile">
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <img src="./assets/cake.png" alt="" class="dish-icon-mobile my-3">
+                        </div>
+                        <div class="col-4">
+                            <div class="row">
+                                <h4>Pastel de chocolate</h4>
+                            </div>
+                            <div class="row">
+                                <p class="p-mobile">Rebanada de pastel de chocolate</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <h4>
+                                $ 30
+                            </h4>
+                        </div>
+                        <div class="col-1">
+                            <a href=""><img src="./assets/add-button.png" alt="" class="icons-mobile"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
+
 </body>
 
 </html>
